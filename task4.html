@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      label {
+        margin-right: 30px;
+      }
+      td {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <form>
+        <tr>
+          <td><label for="full name">Full Name</label></td>
+          <td><input type="text" placeholder="Full Name" id="full name" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="username">Username</label></td>
+          <td><input type="text" placeholder="UserName" id="username" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td>
+            <input type="password" placeholder="Password" id="password" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="repassword">Repassword</label></td>
+          <td>
+            <input type="password" placeholder="Repassword" id="repassword" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td><input type="search" placeholder="Address" id="address" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td><input type="number" placeholder="Age" id="age" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="save" id="submit" /></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+/*vertical nevigation bar */
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+
+  width: 100px;
+
+  border: 1px solid;
+  padding: 5px;
+  padding-bottom: 0%;
+}
+li a {
+  display: block;
+  background-color: rgb(144, 204, 222);
+  color: blue;
+  text-decoration-line: none;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#home {
+  background-color: orange;
+  color: white;
+}
+
+/*horizontal nevigation bar*/

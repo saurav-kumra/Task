@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Margin in Unordered List</title>
+    <style>
+      /* Style for the unordered list */
+      ul.dynamic-margin-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      /* Style for list items */
+      ul.dynamic-margin-list li {
+        display: inline-block;
+        margin-right: 10px; /* Default margin */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dynamic Margin in Unordered List</h1>
+    <ul id="dynamic-list" class="dynamic-margin-list">
+      <!-- List items will be generated dynamically using JavaScript -->
+    </ul>
+
+    <script>
+      // JavaScript code to dynamically adjust the margin
+      const itemList = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
+
+      const dynamicList = document.getElementById("dynamic-list");
+
+      // Calculate the margin based on the number of items
+      const marginValue = 100 / itemList.length + "%";
+
+      // Apply the calculated margin to list items
+      itemList.forEach((item) => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        li.style.marginRight = marginValue;
+        dynamicList.appendChild(li);
+      });
+    </script>
+  </body>
+</html>

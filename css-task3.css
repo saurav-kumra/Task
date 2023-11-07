@@ -1,0 +1,22 @@
+th {
+  background-color: green;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(226, 249, 237, 0.788);
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+table,
+hr,
+tr,
+td {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: left;
+
+  padding: 5px;
+}

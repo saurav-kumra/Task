@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 20px;
+  padding-right: 0px;
+  border: 1px solid;
+}
+
+li {
+  display: block;
+  float: left;
+}
+#bootstrap {
+  border-right: 0px;
+  margin-right: 0px;
+}
+li a {
+  text-decoration-line: none;
+  background-color: rgb(222, 213, 213);
+  padding: 10px;
+  border-right: 2px solid blue;
+  width: auto;
+}
+#home {
+  background-color: gray;
+}

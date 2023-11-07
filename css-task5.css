@@ -1,0 +1,37 @@
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+body {
+  padding-left: 200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: purple;
+  background-color: #dfe249;
+}
+ul.navbar li {
+  margin: 0.5em 0;
+  padding: 0.3em;
+  background-color: white;
+  border-right: 1em solid black;
+}
+a {
+  text-decoration: none;
+  color: rgb(34, 140, 205);
+}
+#home {
+  color: purple;
+  font-weight: bold;
+}
+
+ul.navbar li:hover {
+  background-color: orange;
+}
+address {
+  border-top: purple solid;
+  margin: 1em;
+  padding: 1em;
+}
